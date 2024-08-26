@@ -38,7 +38,7 @@ const userSchema = new mongoose.Schema({
     ],
     images: {
         type: String,
-        required: true,
+        required: false,
     },
     token:{
         type:String,
